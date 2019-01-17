@@ -55,11 +55,6 @@ a:hover {
   color: #000;
 }
 
-img {
-  display: inline-block;
-  max-width: 100%;
-}
-
 .img-flex {
   display: block;
   width: 100%;
@@ -68,23 +63,18 @@ img {
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%;
-  line-height: 1.4;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   .text {
     display: inline-block;
-    width: 47%;
-  }
-
-  section {
-    display: inline-block;
-    width: 47%;
+    width: 40%;
   }
 
   .img-flex {
     display: inline-block;
-    width: 55%;
+    width: 50%;
   }
 
 }
@@ -92,16 +82,16 @@ img {
 @media only screen and (min-width: 60em) {
 
   html {
-  font-size: 120%;
-  line-height: 1.5;
-}
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
-  font-size: 130%;
-}
+    font-size: 130%;
+  }
 
 }
